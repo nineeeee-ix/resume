@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitTrack - Your Fitness Companion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-dumbbell"></i>
+                    <span>FitTrack</span>
+                </div>
+                
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <nav>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-home"></i> Dashboard</a></li>
+                        <li><a href="#"><i class="fas fa-running"></i> Workouts</a></li>
+                        <li><a href="#"><i class="fas fa-chart-line"></i> Progress</a></li>
+                        <li><a href="#"><i class="fas fa-users"></i> Community</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="user-actions">
+                    <a href="#" class="btn btn-outline"><i class="fas fa-sign-in-alt"></i> Login</a>
+                    <a href="#" class="btn btn-primary"><i class="fas fa-user-plus"></i> Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main-content">
+        <div class="container">
+            <div class="dashboard">
+                <div class="left-column">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">Today's Workout</h2>
+                            <a href="#" class="btn btn-accent">Start Workout</a>
+                        </div>
+                        
+                        <div class="workout-list">
+                            <div class="workout-item">
+                                <div class="workout-icon">
+                                    <i class="fas fa-walking"></i>
+                                </div>
+                                <div class="workout-info">
+                                    <h3>Cardio</h3>
+                                    <p>30 minutes • 250 calories</p>
+                                </div>
+                            </div>
+                            
+                            <div class="workout-item">
+                                <div class="workout-icon">
+                                    <i class="fas fa-dumbbell"></i>
+                                </div>
+                                <div class="workout-info">
+                                    <h3>Strength Training</h3>
+                                    <p>3 sets • 12 reps each</p>
+                                </div>
+                            </div>
+                            
+                            <div class="workout-item">
+                                <div class="workout-icon">
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                                <div class="workout-info">
+                                    <h3>Yoga & Stretching</h3>
+                                    <p>20 minutes • Flexibility</p>
+                                </div>
+                            </div>
+                            
+                            <div class="workout-item">
+                                <div class="workout-icon">
+                                    <i class="fas fa-bicycle"></i>
+                                </div>
+                                <div class="workout-info">
+                                    <h3>Cycling</h3>
+                                    <p>45 minutes • 400 calories</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">Weekly Progress</h2>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                        
+                        <div class="progress-chart">
+                            <div class="chart-bar" style="height: 30%;">
+                                <span>Mon</span>
+                            </div>
+                            <div class="chart-bar" style="height: 60%;">
+                                <span>Tue</span>
+                            </div>
+                            <div class="chart-bar" style="height: 80%;">
+                                <span>Wed</span>
+                            </div>
+                            <div class="chart-bar" style="height: 90%;">
+                                <span>Thu</span>
+                            </div>
+                            <div class="chart-bar" style="height: 70%;">
+                                <span>Fri</span>
+                            </div>
+                            <div class="chart-bar" style="height: 40%;">
+                                <span>Sat</span>
+                            </div>
+                            <div class="chart-bar" style="height: 20%;">
+                                <span>Sun</span>
+                            </div>
+                        </div>
+                        
+                        <div class="progress-stats">
+                            <div class="stat">
+                                <h3>5/7</h3>
+                                <p>Workouts Completed</p>
+                            </div>
+                            <div class="stat">
+                                <h3>2,350</h3>
+                                <p>Calories Burned</p>
+                            </div>
+                            <div class="stat">
+                                <h3>4h 30m</h3>
+                                <p>Total Time</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="right-column">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">Community Activity</h2>
+                            <a href="#" class="btn btn-primary">Post</a>
+                        </div>
+                        
+                        <div class="social-feed">
+                            <div class="post">
+                                <div class="post-avatar">JD</div>
+                                <div class="post-content">
+                                    <div class="post-header">
+                                        <div class="post-author">John Doe</div>
+                                        <div class="post-time">2 hours ago</div>
+                                    </div>
+                                    <div class="post-text">
+                                        Just completed my personal best - 10km run in 45 minutes! 🏃‍♂️
+                                    </div>
+                                    <div class="post-stats">
+                                        <div><i class="fas fa-heart"></i> 24</div>
+                                        <div><i class="fas fa-comment"></i> 8</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="post">
+                                <div class="post-avatar">SA</div>
+                                <div class="post-content">
+                                    <div class="post-header">
+                                        <div class="post-author">Sarah Adams</div>
+                                        <div class="post-time">5 hours ago</div>
+                                    </div>
+                                    <div class="post-text">
+                                        Finished my 30-day yoga challenge! My flexibility has improved so much. 🧘‍♀️
+                                    </div>
+                                    <div class="post-stats">
+                                        <div><i class="fas fa-heart"></i> 42</div>
+                                        <div><i class="fas fa-comment"></i> 15</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="post">
+                                <div class="post-avatar">MJ</div>
+                                <div class="post-content">
+                                    <div class="post-header">
+                                        <div class="post-author">Mike Johnson</div>
+                                        <div class="post-time">1 day ago</div>
+                                    </div>
+                                    <div class="post-text">
+                                        Hit a new PR on bench press today - 225 lbs! 💪
+                                    </div>
+                                    <div class="post-stats">
+                                        <div><i class="fas fa-heart"></i> 37</div>
+                                        <div><i class="fas fa-comment"></i> 12</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">Monthly Challenges</h2>
+                        </div>
+                        
+                        <div class="challenge-list">
+                            <div class="challenge-item">
+                                <h3>10,000 Steps Daily</h3>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 75%;"></div>
+                                </div>
+                                <p>75% complete</p>
+                            </div>
+                            
+                            <div class="challenge-item">
+                                <h3>30-Day Plank Challenge</h3>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 40%;"></div>
+                                </div>
+                                <p>40% complete</p>
+                            </div>
+                            
+                            <div class="challenge-item">
+                                <h3>5K Run</h3>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 90%;"></div>
+                                </div>
+                                <p>90% complete</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About FitTrack</h3>
+                    <p>Your personal fitness companion to track workouts, monitor progress, and connect with a community of fitness enthusiasts.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <p><a href="#">Workout Plans</a></p>
+                    <p><a href="#">Nutrition Guide</a></p>
+                    <p><a href="#">Premium Features</a></p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 FitTrack. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script2.js"></script>
+</body>
+</html>
