@@ -370,7 +370,6 @@
             font-size: 0.9rem;
         }
         
-        /* New Sections */
         .additional-info, .education, .certificates, .work-experience, .references {
             background-color: white;
         }
@@ -455,4 +454,5 @@
             .header-subtitle {
                 font-size: 1.5rem;
             }
+
         }
